@@ -1,4 +1,4 @@
-package com.tfl.controller.domain;
+package com.tfl.domain;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

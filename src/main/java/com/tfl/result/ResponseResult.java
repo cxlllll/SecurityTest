@@ -1,4 +1,4 @@
-package com.tfl.controller.result;
+package com.tfl.result;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

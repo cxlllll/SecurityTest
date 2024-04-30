@@ -1,4 +1,4 @@
-package com.tfl.controller.util;
+package com.tfl.util;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

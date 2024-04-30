@@ -1,4 +1,4 @@
-package com.tfl.controller.util;
+package com.tfl.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;

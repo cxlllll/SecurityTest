@@ -1,4 +1,4 @@
-package com.tfl.controller.util;
+package com.tfl.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundSetOperations;
