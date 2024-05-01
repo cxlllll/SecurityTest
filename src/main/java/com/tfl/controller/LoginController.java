@@ -1,0 +1,32 @@
+package com.tfl.controller;
+
+import com.tfl.domain.ResponseResult;
+import com.tfl.domain.User;
+import com.tfl.service.LoginServcie;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+
+@RestController
+public class LoginController {
+
+    @Autowired
+    private LoginServcie loginServcie;
+
+
+    @PostMapping("/user/login")
+    public ResponseResult login(@RequestBody User user){
+        //登录
+        return loginServcie.login(user);
+    }
+
+    @RequestMapping("/user/logout")
+    public ResponseResult logout(){
+        return loginServcie.logout();
+    }
+}

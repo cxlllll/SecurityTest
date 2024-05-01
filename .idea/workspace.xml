@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48ffc3f4-ff18-4b2a-adb0-45f2febc3941" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/expression/SGExpressionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/handler/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/handler/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/service/LoginServcie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/service/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tfl/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tfl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tfl/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tfl/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tfl/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tfl/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tfl/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tfl/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tfl/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +37,48 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
   <component name="ProjectId" id="2fnOREhDeiohY3MApLYCsCGbLCw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35172415" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tfl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tfl.config" />
+      <recent name="com.tfl.domain" />
+      <recent name="com.tfl.service" />
+      <recent name="com.tfl.controller" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Documents\Tencent Files\651147191\FileRecv\MobileFile\SpringSecurityTest\src\main\resources" />
+      <recent name="C:\Users\hp\Documents\Tencent Files\651147191\FileRecv\MobileFile\SpringSecurityTest\src\main\java\com\tfl\domain" />
+      <recent name="C:\Users\hp\Documents\Tencent Files\651147191\FileRecv\MobileFile\SpringSecurityTest\src\main\java\com\tfl" />
       <recent name="C:\Users\tfl\IdeaProjects\SpringSecurityTest\src\main\java\com\tfl\controller" />
       <recent name="C:\Users\tfl\IdeaProjects\SpringSecurityTest\src\main\java\com\tfl\controller\util" />
     </key>
@@ -51,6 +93,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.TestBCryptPasswordEncoder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringSecurityTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tfl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tfl" />
+      <option name="MAIN_CLASS_NAME" value="com.tfl.MapperTest" />
+      <option name="METHOD_NAME" value="TestBCryptPasswordEncoder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringSecurityTest" />
+      <option name="PACKAGE_NAME" value="com.tfl" />
+      <option name="MAIN_CLASS_NAME" value="com.tfl.MapperTest" />
+      <option name="METHOD_NAME" value="testUserMapper" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,6 +139,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.MapperTest.TestBCryptPasswordEncoder" />
+        <item itemvalue="JUnit.MapperTest.testUserMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -86,7 +156,9 @@
       <option name="presentableId" value="Default" />
       <updated>1714433366119</updated>
       <workItem from="1714433367210" duration="4377000" />
-      <workItem from="1714444041101" duration="1215000" />
+      <workItem from="1714444041101" duration="1999000" />
+      <workItem from="1714446071975" duration="1957000" />
+      <workItem from="1714448138783" duration="19575000" />
     </task>
     <servers />
   </component>
@@ -94,25 +166,82 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1714521522706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1714521522706" />
     <state x="573" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1714444702015">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="339" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1714444702015" />
-    <state x="270" y="60" key="SettingsEditor" timestamp="1714444520083">
+    <state x="548" y="283" width="440" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1714446518230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="60" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1714444520083" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tfl/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="548" y="283" width="440" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1714446518230" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1714480737261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1714480737261" />
+    <state x="570" y="167" key="FileChooserDialogImpl" timestamp="1714447875983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1714447875983" />
+    <state width="1493" height="169" key="GridCell.Tab.0.bottom" timestamp="1714481429779">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1714481429779" />
+    <state width="1493" height="169" key="GridCell.Tab.0.center" timestamp="1714481429775">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1714481429775" />
+    <state width="1493" height="169" key="GridCell.Tab.0.left" timestamp="1714481429770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1714481429770" />
+    <state width="1493" height="169" key="GridCell.Tab.0.right" timestamp="1714481429778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1714481429778" />
+    <state width="1493" height="169" key="GridCell.Tab.1.bottom" timestamp="1714481429786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1714481429786" />
+    <state width="1493" height="169" key="GridCell.Tab.1.center" timestamp="1714481429782">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1714481429782" />
+    <state width="1493" height="169" key="GridCell.Tab.1.left" timestamp="1714481429781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1714481429781" />
+    <state width="1493" height="169" key="GridCell.Tab.1.right" timestamp="1714481429783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1714481429783" />
+    <state width="1493" height="169" key="GridCell.Tab.2.bottom" timestamp="1714481429802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1714481429802" />
+    <state width="1493" height="169" key="GridCell.Tab.2.center" timestamp="1714481429797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1714481429797" />
+    <state width="1493" height="169" key="GridCell.Tab.2.left" timestamp="1714481429788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1714481429788" />
+    <state width="1493" height="169" key="GridCell.Tab.2.right" timestamp="1714481429800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="169" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1714481429800" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1714447951204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1714447951204" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1714464248970">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1714464248970" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
